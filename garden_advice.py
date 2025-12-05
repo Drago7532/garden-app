@@ -43,7 +43,7 @@ def get_plant_advice(plant_type):
 # Function to recommend plants based on the season
 def recommend_plants(season):
     """
-    Suggest plants suitable for the selected season.
+    Suggest plants suitable for the selected season
     """
     recommendations = {
         "summer": ["Sunflowers", "Tomatoes", "Basil"],
