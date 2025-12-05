@@ -1,11 +1,16 @@
+# -------------------------------
+# Gardening Advice Program
+# -------------------------------
+
 # Hardcoded values for the season and plant type
+# Function to get user inputs
 season = "summer"  # TODO: Replace with input() to allow user interaction.
 plant_type = "flower"  # TODO: Replace with input() to allow user interaction.
 
 # Variable to hold gardening advice
 advice = ""
 
-# Determine advice based on the season
+# Function containing advice based on season
 if season == "summer":
     advice += "Water your plants regularly and provide some shade.\n"
 elif season == "winter":
@@ -13,13 +18,17 @@ elif season == "winter":
 else:
     advice += "No advice for this season.\n"
 
-# Determine advice based on the plant type
+# Function containing advice based on plant type
 if plant_type == "flower":
     advice += "Use fertiliser to encourage blooms."
 elif plant_type == "vegetable":
     advice += "Keep an eye out for pests!"
 else:
     advice += "No advice for this type of plant."
+
+# -------------------------------
+# Main Program
+# -------------------------------
 
 # Print the generated advice
 print(advice)
